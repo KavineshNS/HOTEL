@@ -1,0 +1,430 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0px; */
+}
+:root{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:#c49a6c ;
+    /* color: black; */
+}
+.nav{
+    display:flex;
+    /* justify-content:space-between; */
+    /* padding-right: 20px; */
+    
+}
+header img{
+    width:100px;
+    height:100px;
+    margin: 0;
+}
+.nav li{
+    display: inline-block;
+    margin-top: 20px; 
+    margin-left: 30px;
+    padding-right: 50px;
+ }
+.nav li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+    /* padding: 20px; */
+    color: #000;
+    /* padding:0 20px; */
+    letter-spacing: .8px;
+    /* transition:  .1s ease-in-out; */
+
+    &:hover{
+        color: #fff200;
+        border-bottom: #fff200 solid 2px;
+    }
+}
+
+.active{
+    color: #fff200 !important;
+        border-bottom: #fff200 solid 2px;
+}
+/*---------------- footer-------------------- */
+.footer-nav{
+   background-color: #c49a6c;
+   display: flex;
+}
+.footer-logo{
+    width: 15%;
+    height: 100%;
+    padding-left: 20px;
+}
+.footer-content-div{
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-list-div{
+    display:flex;
+    justify-content: space-between !important;
+    /* margin: 0px; */
+    padding: 0px;
+}
+.footer-list{
+ list-style: none;
+ padding-right: 50px;
+}
+.footer-anchor{
+    color: #000;
+    text-decoration: none;
+    transition:ease .3s;
+    padding-bottom: 2px;
+    &:hover{
+        color: #fff200;
+        border-bottom: #fff200 solid 2px;
+    }
+}
+
+.footer-terms-div{
+    margin: 10px 0px 25px 0px;
+}
+
+.footer-privacy{
+    padding-left: 50px;
+}
+/* -------home------------------- */
+
+#head{
+    /* display: flex; */
+    background-image: url(./Images/ba.jpg);
+    background-size:cover;
+    /* background-size: 100% 100%; */
+
+}
+#head .text{
+    padding:200px 20px;
+}
+#head #p1{ 
+    font-weight: 600;
+    color: white;
+}
+#head h1{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 10px;
+    color: white;
+    letter-spacing: .5px;
+}
+#head #p2{
+    color: gray;
+    /* opacity: 0.5; */
+}
+#head p span{
+    text-decoration:underline #fff200;
+    color: gray;
+}
+#menu{ 
+}
+.menubutton{
+ display: flex;
+ justify-content: center;
+}
+#menu .mh2{
+    background-color: red;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+#menu .img{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 400px 400px;
+    gap: 20px;
+    column-gap: 10px;
+    row-gap: 30px;
+}
+#menu div img{
+   
+    width: 400px;
+    height: 300px;
+}
+#menu h1{
+    background-color: blue;
+    margin: 40px 40px 40px 40px ;
+    padding-left: 500px;
+}
+#viewmore{
+    justify-content: center;
+}
+.booktable{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+.booktable .bh2{
+    background-color: red;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+.tableimg-div{
+  
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.tableimg{
+    width: 90vw;
+    height: 90vh;
+  }
+/* -------------------------------------map------------------------------------------------------ */
+.map-head{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    margin:0px 0px 0px 0px;
+    padding: 10px;
+}
+.map-head-h{
+    color: white;
+    padding-right: 50px;
+    /* 5margin-top: 35px; */
+}
+
+#map-number{
+    background-color: #ffffff !important;
+    margin: 0px !important;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+    font-weight: 400;
+}
+
+
+.map-img-map{
+     width: 100%;
+    
+}
+/* ---------------------About us---------------------------- */
+
+
+ .imgs , .Aboutus, .partners{
+    background-color: rgb(208, 205, 205); 
+ }
+.totalimg{
+    width:75%;
+    height: 500px;
+    padding-left:200px ;
+}
+.A-h-div{
+    display: flex;
+    justify-content: center;
+}
+.aboutus-h{
+    background-color: red;
+    border-radius: 20px;
+    padding: 20px;
+}
+.content{
+    display:grid;
+    justify-content:center;
+    grid-template-columns:1fr 1fr;
+}
+.burger{
+    padding-left: 300px;
+    width: 400px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.Aboutus-para{
+    padding: 15px 200px 0px 50px;
+    font-weight: 600;
+}
+.apartner{
+    display: flex;
+    justify-content:space-around;
+}
+.apartner-h{
+    background-color: red;
+    border-radius: 20px;
+    padding: 20px;
+}
+.partnerimg{
+    display: flex;
+    justify-content:center;
+}
+.geroge{
+    width: 300px;
+    margin: 30px 20px 30px 50px;
+}
+.william{
+    width: 300px;
+    margin: 30px 20px 30px 20px;
+}
+
+
+/*  ---------------------Menus----------------------------------*/
+
+.menumeals{
+  width: 100%;
+  height: 650px;
+}
+.meals-div{
+    display: flex;
+    justify-content: center;
+}
+.menus{
+    display: grid;
+    justify-content: center;
+    grid-template-columns:400px 400px 400px;
+    column-gap: 15px;
+    row-gap: 30px;
+    padding: 20px;
+}
+.menu1{
+    width: 350px;
+    height: 350px;
+}
+.paani{
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    margin-left: 500px;
+}
+.menu-Click{
+    display: flex;
+    justify-content: center;
+}
+.click{
+    color: #000;
+    font-weight: 550;
+    padding: 10px 0px 0px 0px;
+    border-bottom: #000 solid 2px;
+    line-height: 1;
+}
+.menuclick{
+    padding-left: 50px;
+}
+.menuclick-h{
+    background-color: gray;
+    padding: 10px;
+    border-radius:45%;
+}
+/*   --------------------book a table------------- */
+.Bookatable{
+    background-color: rgb(208, 205, 205); 
+}
+.tableimg{
+    display: flex;
+    justify-content:center ;
+    width: 100%;
+}
+.tab1{
+    width: 100vw;
+}
+.total-table{
+    display: grid;
+    justify-content: center;
+    padding: 50px;
+    grid-template-columns:450px 450px ;
+    row-gap: 10px;
+    column-gap: 0px;
+}
+.table-div{
+    display: grid;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.table-div-h{
+    display: flex;
+    justify-content: center;
+}
+.table1{
+   background-color: red;
+   border-radius: 45px;
+   padding: 10px;
+}
+.table-img{
+    width: 400px;
+    height: 300px;
+}
+
+
+/* -----------------------Contact US------------------------- */
+.ContactUs{
+background-color: rgb(208, 205, 205);
+
+}
+.Address{
+    display:grid;
+    justify-content: center;
+    padding: 50px;
+}
+.Hotalname{
+    display: flex;
+    justify-content: center;
+}
+.Hotel-address{
+    display: flex;
+    justify-content: center;
+    line-height: 2px;
+} 
+.input-table{
+    display: flex;
+    justify-content: center;
+    /* padding-left: 350px; */
+    padding-top: 35px;
+
+}
+.samp{
+    font-weight: 600;
+    width: 300px;
+    height: 50px;
+    padding-left: 30px;
+}
+.email{
+    font-weight: 600;
+    width:610px;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.Message{
+    font-weight: 600;
+    margin-top: 15px;
+     padding: 25px 480px 150px 25px;
+}
+.table-row{
+    line-height: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px;
+}
+.button button{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: #be1e2d;
+    padding: 20px 100px;
+    border: none;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.socialmedia h1{
+    margin-right: 50px;
+}
+.socialmedia a{
+    margin: 30px;
+    font-size: 50px; 
+}
+.socialmedia i{
+    /* font-size: 30px;*/
+    padding: 7px;
+    border-radius: 10px;
+}
